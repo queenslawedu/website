@@ -3798,3 +3798,16 @@ p.form-message.error {
   background-color: white;
   padding: 10px;
 }
+
+#main-slogan-container {
+  text-align: center;
+  font-weight: 900;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* .list-circle-style {
+  list-style: circle;
+  margin-left: 10px;
+  color:#666;
+} */
