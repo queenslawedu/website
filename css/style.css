@@ -3793,3 +3793,8 @@ p.form-message.error {
   margin-bottom: 10px;
   font-weight: bold;
 }
+
+.footer-logo {
+  background-color: white;
+  padding: 10px;
+}
