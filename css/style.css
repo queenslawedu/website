@@ -3817,3 +3817,24 @@ p.form-message.error {
   margin-left: 10px;
   color:#666;
 } */
+
+a.anchor-as-download-link {
+  display: inline-block;
+  width: 100%;
+  height: 49px;
+  padding: 10px;
+  border: 1px solid #0A294D;
+  border-radius:5px;
+  color: #fff;
+  background-color: #0A294D;
+  text-align: center;
+  transition: 0.23s;
+  cursor: pointer;
+}
+
+a.anchor-as-download-link:hover {
+  border: 1px solid #0A294D;
+  border-radius:5px;
+  color: #0A294D;
+  background-color: #fff;
+}
