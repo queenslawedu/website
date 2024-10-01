@@ -3823,12 +3823,6 @@ p.form-message.error {
   font-style: italic;
 }
 
-/* .list-circle-style {
-  list-style: circle;
-  margin-left: 10px;
-  color:#666;
-} */
-
 a.anchor-as-download-link {
   display: inline-block;
   width: 100%;
@@ -3854,4 +3848,11 @@ a.anchor-as-download-link:hover {
   width: 100%;
   border:1px solid #444;
   padding: 2px;
+}
+
+.text-author {
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
 }
