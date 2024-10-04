@@ -149,23 +149,39 @@ p {
 	border: 1px solid #ffc600;
 	padding: 0 35px;
 	font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 	line-height: 50px;
 	border-radius: 5px;
-    color: #07294d;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    z-index: 5;
-    -webkit-transition: 0.4s ease-in-out;
-    transition: 0.4s ease-in-out;
-    background-color: #ffc600;
+  color: #07294d;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 5;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  background-color: #ffc600;
 }
+
 .main-btn:hover{
     color: #ffc600;
     border-color: #07294d;
     background-color: #07294d;
+}
+
+.main-btn:hover img {
+  background-color: #ffc600;
+}
+
+.main-btn img {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 16px;
+  height: auto;
+  background-color: transparent;
+  color: #000;
+  padding: 1px;
 }
 
 
@@ -3821,27 +3837,6 @@ p.form-message.error {
   font-weight: 900;
   font-weight: bold;
   font-style: italic;
-}
-
-a.anchor-as-download-link {
-  display: inline-block;
-  width: 100%;
-  height: 49px;
-  padding: 10px;
-  border: 1px solid #0A294D;
-  border-radius:5px;
-  color: #fff;
-  background-color: #0A294D;
-  text-align: center;
-  transition: 0.23s;
-  cursor: pointer;
-}
-
-a.anchor-as-download-link:hover {
-  border: 1px solid #0A294D;
-  border-radius:5px;
-  color: #0A294D;
-  background-color: #fff;
 }
 
 .image-block {
